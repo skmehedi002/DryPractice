@@ -16,7 +16,9 @@
     border: 0;
     -webkit-transition: all .5s ease;
     transition: all .5s ease;
-    min-height: 62px;
+    min-height: 85px;
+    background: #F7BA34;
+    padding: 10px 0;
 }
 
 #topnav .navigation-menu {
