@@ -133,15 +133,204 @@ img {
     right: 0;
 }
 
+.title h2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+}
+
 /*====================
       Banner CSS
 ======================*/
+
 .banner-sec {
     margin-top: 85px;
+    padding-top: 100px;
+    padding-bottom: 75px;
+    background: url(../images/banner-bg.png) no-repeat center;
+    background-size: cover;
+
+}
+
+.banner-text h2 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;
+    color: #405D5D;
+    margin-top: 75px;
+}
+
+.banner-text p {
+    color: #405D5D;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 75px;
+}
+
+.banner-image {
+    text-align: center;
+}
+
+/*====================
+      Video CSS
+======================*/
+.video-sec {
+    padding-top: 75px;
+}
+
+.video-text {
+    margin-bottom: 50px;
+}
+
+.video-text h2 {
+    color: #405D5D;
+    margin-bottom: 30px;
+}
+
+.video-text p {
+    color: #405D5D;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+/*====================
+     Details CSS
+======================*/
+
+.details-sec {
+    background: #405D5D;
+    padding-bottom: 75px;
+    padding-top: 200px;
+    margin-top: -150px;
+}
+
+.single-details h3 {
+    color: #fff;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    margin-top: 40px;
+}
+
+.single-details p {
+    color: #FFF;
+}
+
+/*====================
+     Procedure CSS
+======================*/
+.procedure-sec {
+    padding: 75px 0;
+}
+
+.middle-procedure {
+    margin-top: 320px;
+}
+
+/*====================
+     Team CSS
+======================*/
+.team-sec {
+    background: #F7BA34;
+    padding: 75px 0;
+}
+
+.team-sec .title {
+    margin-bottom: 25px;
+}
+
+.team-sec .title h2 {
+    color: #fff;
+}
+
+.team-sec .title p {
+    color: #fff;
+    margin-top: 0;
+}
+
+.single-team img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    margin: 40px;
+}
+
+.single-team .text h3 {
+    color: #fff;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.single-team p {
+    font-size: 18px;
+    line-height: 27px;
+    color: #fff;
+}
+
+/*====================
+     Question CSS
+======================*/
+.question-sec {
+    background: #405D5D;
+    padding: 75px 0;
+}
+
+.question-sec .title {
+    margin-bottom: 60px;
+}
+
+.question-sec .title h2 {
+    color: #fff;
+}
+
+.question-sec .title p {
+    color: #fff;
+    margin-top: 0;
+}
+
+.question-sec .card {
+    margin-bottom: 40px;
+}
+
+.question-sec .card button {
+    color: #405D5D;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 0;
+    padding-left: 10px;
+    
+}
+.question-sec .card button:hover {
+    text-decoration: none;
 }
 /*====================
-      CSS
+    Testimonial CSS
 ======================*/
+.testimonial-sec {
+    padding-top: 75px;
+    padding-bottom: 150px;
+}
+/*====================
+     Download CSS
+======================*/
+.download-sec {
+    background: #F7BA34;
+    padding-top: 50px;
+}
+.download-sec .image {
+    margin-top: -200px;
+}
+.download-sec  h2 {
+    color: #fff;
+}
+
+.download-sec p {
+    color: #fff;
+    margin-bottom: 50px;
+}
 
 /*====================
       CSS
@@ -168,29 +357,15 @@ img {
 ======================*/
 
 /*====================
-      CSS
+     Footer CSS
 ======================*/
-
-/*====================
-      CSS
-======================*/
-
-/*====================
-      CSS
-======================*/
-
-/*====================
-      CSS
-======================*/
-
-/*====================
-      CSS
-======================*/
-
-/*====================
-      CSS
-======================*/
-
-/*====================
-      CSS
-======================*/
+.footer-sec {
+    background: #405D5D;
+    padding: 50px 0;
+}
+.footer-sec h2 {
+    color: #fff;
+}
+.footer-sec p {
+    color: #fff;
+}
