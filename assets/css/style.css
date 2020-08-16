@@ -466,16 +466,69 @@ img {
 }
 
 /*====================
-      CSS
+     Practice CSS
 ======================*/
+.practice-sec {
+    margin-top: 85px;
+    padding: 100px 0;
+    background-size: cover;
+
+}
+
+.practice-text h2 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;
+    color: #405D5D;
+    margin-top: 75px;
+    margin-bottom: 25px;
+}
+
+.practice-text p {
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 50px;
+}
 
 /*====================
-      CSS
+    prac-details  CSS
 ======================*/
 
+.prac-details {
+    padding-top: 75px;
+    background: #405D5D;
+}
+
+.prac-details .title h2 {
+    color: #fff;
+}
+
+.prac-details p {
+    color: #fff;
+    padding: 25px;
+}
+
 /*====================
-      CSS
+     simple-text CSS
 ======================*/
+
+.simple-text {
+    padding: 75px 0;
+}
+
+.simple-text p {
+    font-size: 18px;
+    line-height: 27px;
+    padding: 0 25px;
+}
+
+.simple-text h5 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #405D5D;
+    margin-top: 35px;
+}
 
 /*====================
       CSS
