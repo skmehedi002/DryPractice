@@ -232,20 +232,15 @@ img {
      Team CSS
 ======================*/
 .team-sec {
-    background: #F7BA34;
     padding: 75px 0;
+    margin-top: 85px;
 }
 
 .team-sec .title {
     margin-bottom: 25px;
 }
 
-.team-sec .title h2 {
-    color: #fff;
-}
-
 .team-sec .title p {
-    color: #fff;
     margin-top: 0;
 }
 
@@ -255,10 +250,10 @@ img {
     border-radius: 50%;
     border: 5px solid #fff;
     margin: 40px;
+    box-shadow: 0px 5px 5px #999999;
 }
 
 .single-team .text h3 {
-    color: #fff;
     font-weight: 400;
     font-size: 24px;
     line-height: 32px;
@@ -267,7 +262,6 @@ img {
 .single-team p {
     font-size: 18px;
     line-height: 27px;
-    color: #fff;
 }
 
 /*====================
@@ -275,6 +269,7 @@ img {
 ======================*/
 .contact-sec {
     padding: 75px 0;
+    background: #405D5D;
 }
 
 .contact-sec h3 {
@@ -282,6 +277,7 @@ img {
     line-height: 54px;
     color: #405D5D;
     font-weight: 400;
+    color: #fff;
 }
 
 .contact-text ul {
@@ -296,7 +292,7 @@ img {
 
 .contact-text ul li a {
     font-size: 20px;
-    color: #405D5D;
+    color: #fff;
 }
 
 .contact-text ul li a i {
@@ -306,10 +302,10 @@ img {
 .contact-form a {
     width: 150px;
     height: 50px;
-    background: #405D5D;
+    background: #fff;
     text-align: center;
     line-height: 50px;
-    color: #fff;
+    color:#405D5D;
     font-weight: 400;
     font-size: 18px
 }

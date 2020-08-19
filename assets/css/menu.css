@@ -178,14 +178,13 @@
 }
 
 .darkheader {
-    background-color: #fff !important;
     -moz-box-shadow: 0 10px 33px rgba(0, 0, 0, .1);
     -webkit-box-shadow: 0 10px 33px rgba(0, 0, 0, .1);
     box-shadow: 0 10px 33px rgba(0, 0, 0, .1) !important;
 }
 
 .darkheader .navigation-menu > li > a {
-    color: #000 !important;
+    color: #fff !important;
 }
 
 
@@ -290,9 +289,6 @@
     .logo {
         line-height: 0;
         ;
-    }
-    .darkheader .logo {
-        color: #fff !important;
     }
     #topnav .container {
         width: auto;
