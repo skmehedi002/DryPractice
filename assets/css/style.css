@@ -355,7 +355,15 @@ img {
     padding-top: 75px;
     padding-bottom: 150px;
 }
-
+.img-name {
+    text-align: center;
+    margin: 0 auto;
+}
+.img-name .image {
+    height: 35px;
+    width: 35px !important;
+    border-radius: 50%;
+}
 /*====================
      Download CSS
 ======================*/
@@ -503,7 +511,10 @@ img {
     color: #fff;
     padding: 25px;
 }
-
+.single-prac-detail img {
+    max-width: 260px;
+    height: 400px;    
+}
 /*====================
      simple-text CSS
 ======================*/
