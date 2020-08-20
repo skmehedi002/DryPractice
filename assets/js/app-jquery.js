@@ -4,14 +4,14 @@
    File Description: Main jquery file of the template
 */
 
-! function($) {
+! function ($) {
     "use strict";
 
-    var WebSite = function() {};
+    var WebSite = function () {};
 
     //scroll
-    WebSite.prototype.initNavbarStickey = function() {
-            $(window).scroll(function() {
+    WebSite.prototype.initNavbarStickey = function () {
+            $(window).scroll(function () {
                 var scroll = $(window).scrollTop();
                 if (scroll >= 50) {
                     $(".sticky").addClass("darkheader");
@@ -21,7 +21,7 @@
             });
         },
 
-        WebSite.prototype.initMagnificPopup = function() {
+        WebSite.prototype.initMagnificPopup = function () {
             $('.video-play-icon-trigger').magnificPopup({
                 disableOn: 700,
                 type: 'iframe',
@@ -32,17 +32,17 @@
             });
         },
 
-        WebSite.prototype.initNavbarToggler = function() {
+        WebSite.prototype.initNavbarToggler = function () {
             var scroll = $(window).scrollTop();
 
-            $('.navbar-toggle').on('click', function(event) {
+            $('.navbar-toggle').on('click', function (event) {
                 $(this).toggleClass('open');
                 $('#navigation').slideToggle(400);
             });
 
             $('.navigation-menu>li').slice(-2).addClass('last-elements');
 
-            $('.menu-arrow,.submenu-arrow').on('click', function(e) {
+            $('.menu-arrow,.submenu-arrow').on('click', function (e) {
                 if ($(window).width() < 992) {
                     e.preventDefault();
                     $(this).parent('li').toggleClass('open').find('.submenu:first').toggleClass('open');
@@ -50,17 +50,27 @@
             });
         },
 
-        WebSite.prototype.initTestimonialSlider = function() {
+        WebSite.prototype.initTestimonialSlider = function () {
             $('#owl-demo').owlCarousel({
+                autoplay: false,
+                lazyLoad: true,
+                loop: true,
+                margin: 20,
+                /*
+               animateOut: 'fadeOut',
+               animateIn: 'fadeIn',
+               */
+                responsiveClass: true,
+                autoHeight: true,
+                autoplayTimeout: 7000,
+                smartSpeed: 800,
+                nav: true,
                 items: 1,
-                autoplay: true,
-                itemsDesktop: [1199, 1],
-                itemsDesktopSmall: [979, 1]
             });
         },
 
-        WebSite.prototype.initSmoothLink = function() {
-            $('.navigation-menu a').on('click', function(event) {
+        WebSite.prototype.initSmoothLink = function () {
+            $('.navigation-menu a').on('click', function (event) {
                 var $anchor = $(this);
                 $('html, body').stop().animate({
                     scrollTop: $($anchor.attr('href')).offset().top - 0
@@ -69,13 +79,13 @@
             });
         },
 
-        WebSite.prototype.initScrollspy = function() {
+        WebSite.prototype.initScrollspy = function () {
             $("#navigation").scrollspy({
                 offset: 50
             });
         },
 
-        WebSite.prototype.init = function() {
+        WebSite.prototype.init = function () {
             this.initNavbarStickey();
             this.initMagnificPopup();
             this.initNavbarToggler();
@@ -88,7 +98,7 @@
 }(window.jQuery),
 
 //initializing
-function($) {
+function ($) {
     "use strict";
     $.WebSite.init();
 }(window.jQuery);

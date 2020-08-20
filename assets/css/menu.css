@@ -80,7 +80,10 @@
 .logo .logo-dark {
     display: none;
 }
-
+.logo img {
+    width: 100px;
+    height: 60px;
+}
 #topnav .menu-extras {
     float: right;
 }
@@ -178,13 +181,14 @@
 }
 
 .darkheader {
+    background: #fff !important;
     -moz-box-shadow: 0 10px 33px rgba(0, 0, 0, .1);
     -webkit-box-shadow: 0 10px 33px rgba(0, 0, 0, .1);
     box-shadow: 0 10px 33px rgba(0, 0, 0, .1) !important;
 }
 
 .darkheader .navigation-menu > li > a {
-    color: #fff !important;
+    color: #405D5D !important;
 }
 
 
