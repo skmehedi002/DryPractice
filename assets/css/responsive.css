@@ -68,6 +68,9 @@
         padding-top: 50px;
     }
 
+    .contact-text ul li a {
+        font-size: 16px;
+    }
 }
 
 /* Mobile Layout: 320px. */
