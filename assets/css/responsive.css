@@ -7,25 +7,71 @@
 
 /* Medium Layout: 1280px. */
 
-@media only screen and (min-width: 1200px) and (max-width: 1440px) {
-    
-}
+@media only screen and (min-width: 1200px) and (max-width: 1440px) {}
 
-@media only screen and (min-width: 992px) and (max-width: 1200px) { 
-  
-    
-}
+@media only screen and (min-width: 992px) and (max-width: 1200px) {}
+
 /* Tablet Layout: 768px. */
-@media only screen and (min-width: 768px) and (max-width: 991px) { 
- 
-    
-}
-/* Mobile Layout: 320px. */
-@media only screen and (max-width: 767px) { 
- 
-    
-}
-/* Wide Mobile Layout: 480px. */
-@media only screen and (min-width: 480px) and (max-width: 767px) { 
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    #topnav .logo {
+        padding: 0;
+    }
+
+    .banner-text h2 {
+        font-size: 42px;
+    }
+
+    .banner-text p {
+        font-size: 18px;
+        margin-bottom: 40px;
+    }
+
+    .button-grp img {
+        width: 250px;
+    }
+
+    .middle-procedure {
+        margin-top: 0px;
+    }
+
+    .sp-btn-grp {
+        margin-bottom: 20px;
+    }
+
+    .sp-btn-grp img {
+        width: 200px;
+    }
+
+    .download-sec p {
+        margin-bottom: 10px;
+    }
+
+    .download-sec .image {
+        margin-top: -90px;
+    }
+
+    .testimonial-sec {
+        padding-top: 75px;
+        padding-bottom: 60px;
+    }
+
+    .subs .input-group-text {
+        padding: 14px 25px;
+    }
+
+    .subs {
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+
+    .footer-sec {
+        padding-top: 50px;
+    }
 
 }
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {}
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
