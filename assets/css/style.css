@@ -355,15 +355,26 @@ img {
     padding-top: 75px;
     padding-bottom: 150px;
 }
-.img-name {
-    text-align: center;
-    margin: 0 auto;
+.img-name ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
-.img-name .image {
-    height: 35px;
-    width: 35px !important;
+.img-name li {
+    display: inline-block;
+}
+.img-name img {
+    height: 45px;
+    width: 45px !important;
     border-radius: 50%;
+    margin-top: 15px;
+    margin-right: 15px;
 }
+.img-name span {
+    font-size: 16px;
+    font-weight: 400;
+}
+
 /*====================
      Download CSS
 ======================*/
