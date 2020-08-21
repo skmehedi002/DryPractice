@@ -39,7 +39,7 @@
     }
 
     .sp-btn-grp img {
-        width: 200px;
+        width: 185px;
     }
 
     .download-sec p {
@@ -70,6 +70,19 @@
 
     .contact-text ul li a {
         font-size: 16px;
+    }
+
+    .single-prac-detail img {
+        height: 300px;
+    }
+
+    .prac-details p {
+        padding: 0;
+    }
+    .practice-text h2 {
+        font-size: 34px;
+        margin-top: 40px;
+        margin-bottom: 0;
     }
 }
 
