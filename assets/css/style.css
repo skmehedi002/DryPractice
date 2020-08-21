@@ -211,7 +211,7 @@ img {
     top: 50%;
     left: 50%;
     margin-left: -50px;
-    margin-top:35px;
+    margin-top: -50px;
 }
 /*====================
      Details CSS
@@ -576,13 +576,48 @@ img {
 ======================*/
 .footer-sec {
     background: #405D5D;
-    padding: 50px 0;
+    padding-top: 80px;
+    padding-bottom: 30px;
 }
 
 .footer-sec h2 {
     color: #fff;
+    font-weight: 400;
 }
 
 .footer-sec p {
     color: #fff;
+}
+.subs {
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.subs input::placeholder {
+  color: #fff;
+  opacity: 1; /* Firefox */
+}
+
+.subs input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: #fff;
+}
+
+.subs input::-ms-input-placeholder { /* Microsoft Edge */
+ color: #fff;
+}
+.subs input {
+    height: 55px;
+    padding: 15px;
+    background: transparent;
+    color: #fff;
+}
+.subs .form-control {
+    color: #fff;
+}
+.subs input:focus {
+    background: transparent;
+}
+.subs .input-group-text {
+    background: #F7BA34;
+    color: #fff;
+    padding: 14px 50px;
 }
