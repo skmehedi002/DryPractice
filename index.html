@@ -118,7 +118,8 @@
                         <p>Dry Practice Drill is a drill timer for handgun dry practice or dry fire drills. Each drill begins with a few seconds to prepare, an audible "ready" call, then a start tone. The drill finishes with loud referee whistle.</p>
                     </div>
                     <div class="main-video">
-                        <img src="assets/images/video.png" alt="">
+                        <img src="assets/images/video.png" alt=""><br>
+                        <a href="#" class="button" id="youtube" type="button"><i class="fas fa-play"></i></a>
                     </div>
                 </div>
             </div>
@@ -395,5 +396,14 @@
     <!--common script for all pages-->
     <script src="assets/js/app-jquery.js"></script>
     <script src="assets/js/custom.js"></script>
+    
+    <script>
+    $('#youtube').magnificPopup({
+            items: {
+                src: 'https://www.youtube.com/watch?v=LXb3EKWsInQ'
+            },
+            type: 'iframe'
+        });
+    </script>
 
 </body></html>
