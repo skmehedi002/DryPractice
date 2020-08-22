@@ -159,7 +159,9 @@
 
     .question-sec,
     .testimonial-sec,
-    .practice-sec,.team-sec {
+    .practice-sec,
+    .team-sec,
+    .safety-sec {
         padding: 50px 0;
     }
 
@@ -202,22 +204,40 @@
         line-height: 38px;
         margin-top: 30px;
     }
+
     .contact-sec {
         padding-top: 20px;
         padding-bottom: 50px;
     }
+
     .single-team img {
         margin: 15px;
     }
+
     .single-team .text h3 {
         font-size: 22px;
         margin-bottom: 0;
     }
+
     .single-team .text p {
         font-size: 15px;
         margin-top: 0;
     }
-    
+
+    .safty-img {
+        height: 200px;
+    }
+
+    .safety-sec .title h2 {
+        margin-bottom: 40px;
+    }
+
+    .safety-sec p {
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 25px;
+        text-align: justify;
+    }
 }
 
 /* Wide Mobile Layout: 480px. */
