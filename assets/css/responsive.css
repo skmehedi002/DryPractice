@@ -103,9 +103,11 @@
     #topnav {
         padding-bottom: 0;
     }
+
     #topnav .logo {
         padding: 0;
     }
+
     .practice-text h2 {
         font-size: 24px;
         line-height: 42px;
@@ -133,26 +135,35 @@
         font-size: 28px;
         line-height: 40px;
     }
+
     .prac-details p {
         padding: 0;
     }
+
     .single-prac-detail img {
         width: auto;
         height: auto;
         margin-top: 35px;
     }
+
     .simple-text p {
         font-size: 15px;
         line-height: 22px;
         padding: 0;
     }
+
     .question-sec .card button {
         font-size: 15px;
-            padding-left: 0;
+        padding-left: 0;
     }
-    .question-sec,.testimonial-sec,.practice-sec {
+
+    .question-sec,
+    .testimonial-sec,
+    .practice-sec,.team-sec {
         padding: 50px 0;
-    }   .subs .input-group-text {
+    }
+
+    .subs .input-group-text {
         padding: 14px 25px;
     }
 
@@ -160,9 +171,53 @@
         margin-top: 35px;
         margin-bottom: 35px;
     }
+
     .footer-sec {
         padding-top: 50px;
     }
+
+    .download-sec .image {
+        margin-top: 0;
+    }
+
+    .contact-text ul li a {
+        font-size: 16px;
+    }
+
+    .download-sec h2 {
+        margin-top: 35px;
+        font-size: 28px
+    }
+
+    .download-sec p {
+        margin-bottom: 30px;
+    }
+
+    .download-sec {
+        padding-bottom: 50px;
+    }
+
+    .contact-sec h3 {
+        font-size: 28px;
+        line-height: 38px;
+        margin-top: 30px;
+    }
+    .contact-sec {
+        padding-top: 20px;
+        padding-bottom: 50px;
+    }
+    .single-team img {
+        margin: 15px;
+    }
+    .single-team .text h3 {
+        font-size: 22px;
+        margin-bottom: 0;
+    }
+    .single-team .text p {
+        font-size: 15px;
+        margin-top: 0;
+    }
+    
 }
 
 /* Wide Mobile Layout: 480px. */
