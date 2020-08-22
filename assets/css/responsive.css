@@ -4,13 +4,6 @@
    File Description: Resposive CSS file of the template
 */
 
-
-/* Medium Layout: 1280px. */
-
-@media only screen and (min-width: 1200px) and (max-width: 1440px) {}
-
-@media only screen and (min-width: 992px) and (max-width: 1200px) {}
-
 /* Tablet Layout: 768px. */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     #topnav .logo {
@@ -106,7 +99,71 @@
 }
 
 /* Mobile Layout: 320px. */
-@media only screen and (max-width: 767px) {}
+@media only screen and (max-width: 767px) {
+    #topnav {
+        padding-bottom: 0;
+    }
+    #topnav .logo {
+        padding: 0;
+    }
+    .practice-text h2 {
+        font-size: 24px;
+        line-height: 42px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .practice-text p {
+        font-size: 15px;
+        line-height: 22px;
+        margin-bottom: 30px;
+        text-align: justify;
+    }
+
+    .button-grp img {
+        width: 160px;
+    }
+
+    .practice-image {
+        text-align: center;
+        margin-top: 25px;
+    }
+
+    .title h2 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+    .prac-details p {
+        padding: 0;
+    }
+    .single-prac-detail img {
+        width: auto;
+        height: auto;
+        margin-top: 35px;
+    }
+    .simple-text p {
+        font-size: 15px;
+        line-height: 22px;
+        padding: 0;
+    }
+    .question-sec .card button {
+        font-size: 15px;
+            padding-left: 0;
+    }
+    .question-sec,.testimonial-sec,.practice-sec {
+        padding: 50px 0;
+    }   .subs .input-group-text {
+        padding: 14px 25px;
+    }
+
+    .subs {
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+    .footer-sec {
+        padding-top: 50px;
+    }
+}
 
 /* Wide Mobile Layout: 480px. */
 @media only screen and (min-width: 480px) and (max-width: 767px) {}
