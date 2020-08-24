@@ -9,9 +9,9 @@ if($_POST) {
 
     $emailTo = 'support@drypractice.net';
 
-    $clientEmail = addslashes(trim($_POST['email']));
-    $message = addslashes(trim($_POST['message']));
-    $fullname = addslashes(trim($_POST['name']));
+    $clientEmail = addslashes(trim($_POST['contact-email']));
+    $message = addslashes(trim($_POST['contact-message']));
+    $fullname = addslashes(trim($_POST['contact-name']));
 
     $array = array('emailMessage' => '', 'subjectMessage' => '', 'messageMessage' => '');
 
