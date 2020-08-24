@@ -84,7 +84,7 @@
             });
         },
 
-        Website.prototype.initContactForm = function(){
+        WebSite.prototype.initContactForm = function(){
             $('.contact-form form input[type="text"], .contact-form form textarea').on('focus', function() {
                 $('.contact-form form input[type="text"], .contact-form form textarea').removeClass('contact-error');
             });
@@ -96,7 +96,7 @@
                     type: 'POST',
                     url: 'contact.php',
                     data: postdata,
-                    dataType: 'json',
+                    dataType: 'json',                    
                     success: function(json) {
                         if(json.emailMessage != '') {
                             $('.contact-form form .contact-email').addClass('contact-error');
@@ -105,11 +105,12 @@
                             $('.contact-form form textarea').addClass('contact-error');
                         }
                         if(json.emailMessage == '' && json.subjectMessage == '' && json.messageMessage == '') {
-                            $('.contact-form form').fadeOut('fast', function() {
-                                $('.contact-form').append('<p>Thanks for contacting us! We will get back to you very soon.</p>');
-                                // reload background
-                                $('.contact-container').backstretch("resize");
-                            });
+
+                            var frm  = $('.contact-form form');
+                            // var contactSuccess = $('contact-success');
+                            // createPopper(frm, contactSuccess), {
+                            //     placement: 'top',
+                            //   };
                         }
                     }
                 });
