@@ -4,28 +4,335 @@
    File Description: Resposive CSS file of the template
 */
 
-
-/* Medium Layout: 1280px. */
-
-@media only screen and (min-width: 1200px) and (max-width: 1440px) {
-    
-}
-
-@media only screen and (min-width: 992px) and (max-width: 1200px) { 
-  
-    
-}
 /* Tablet Layout: 768px. */
-@media only screen and (min-width: 768px) and (max-width: 991px) { 
- 
-    
-}
-/* Mobile Layout: 320px. */
-@media only screen and (max-width: 767px) { 
- 
-    
-}
-/* Wide Mobile Layout: 480px. */
-@media only screen and (min-width: 480px) and (max-width: 767px) { 
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    #topnav .logo {
+        padding: 0;
+    }
 
+    .banner-text h2 {
+        font-size: 42px;
+    }
+
+    .banner-text p {
+        font-size: 18px;
+        margin-bottom: 40px;
+    }
+
+    .button-grp img {
+        width: 250px;
+    }
+
+    .middle-procedure {
+        margin-top: 0px;
+    }
+
+    .sp-btn-grp {
+        margin-bottom: 20px;
+    }
+
+    .sp-btn-grp img {
+        width: 185px;
+    }
+
+    .download-sec p {
+        margin-bottom: 10px;
+    }
+
+    .download-sec .image {
+        margin-top: -90px;
+    }
+
+    .testimonial-sec {
+        padding-top: 75px;
+        padding-bottom: 60px;
+    }
+
+    .subs .input-group-text {
+        padding: 14px 25px;
+    }
+
+    .subs {
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+
+    .footer-sec {
+        padding-top: 50px;
+    }
+
+    .contact-text ul li a {
+        font-size: 16px;
+    }
+
+    .single-prac-detail img {
+        height: 300px;
+    }
+
+    .prac-details p {
+        padding: 0;
+    }
+
+    .practice-text h2 {
+        font-size: 34px;
+        margin-top: 40px;
+        margin-bottom: 0;
+    }
+
+    .safty-img {
+        height: 325px;
+    }
+
+    .safety-sec p {
+        font-size: 18px;
+        text-align: justify;
+    }
+
+    .safety-sec h2 {
+        margin-top: 25px;
+    }
+
+    .safety-sec .title h2 {
+        margin-top: 0;
+        margin-bottom: 40px;
+    }
 }
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+    #topnav {
+        padding-bottom: 0;
+    }
+
+    #topnav .logo {
+        padding: 0;
+    }
+
+    .practice-text h2 {
+        font-size: 24px;
+        line-height: 42px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .practice-text p {
+        font-size: 15px;
+        line-height: 22px;
+        margin-bottom: 30px;
+        text-align: justify;
+    }
+
+    .button-grp img {
+        width: 160px;
+    }
+
+    .practice-image {
+        text-align: center;
+        margin-top: 25px;
+    }
+
+    .title h2 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+    .prac-details p {
+        padding: 0;
+    }
+
+    .single-prac-detail img {
+        width: auto;
+        height: auto;
+        margin-top: 35px;
+    }
+
+    .simple-text p {
+        font-size: 15px;
+        line-height: 22px;
+        padding: 0;
+    }
+
+    .question-sec .card button {
+        font-size: 15px;
+        padding-left: 0;
+    }
+    .question-sec .card button span {
+        display: block;
+    }
+    .question-sec,
+    .testimonial-sec,
+    .practice-sec,
+    .team-sec,
+    .safety-sec,
+    .resources-sec,
+    .banner-sec,
+    .procedure-sec {
+        padding: 50px 0;
+    }
+
+    .subs .input-group-text {
+        padding: 14px 25px;
+    }
+
+    .subs {
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+
+    .footer-sec {
+        padding-top: 50px;
+    }
+
+    .download-sec .image {
+        margin-top: 0;
+    }
+
+    .contact-text ul li a {
+        font-size: 16px;
+    }
+
+    .download-sec h2 {
+        margin-top: 35px;
+        font-size: 28px
+    }
+
+    .download-sec p {
+        margin-bottom: 30px;
+    }
+
+    .download-sec {
+        padding-bottom: 50px;
+    }
+
+    .contact-sec h3 {
+        font-size: 28px;
+        line-height: 38px;
+        margin-top: 30px;
+    }
+
+    .contact-sec {
+        padding-top: 20px;
+        padding-bottom: 50px;
+    }
+
+    .single-team img {
+        margin: 15px;
+    }
+
+    .single-team .text h3 {
+        font-size: 22px;
+        margin-bottom: 0;
+    }
+
+    .single-team .text p {
+        font-size: 15px;
+        margin-top: 0;
+    }
+
+    .safty-img {
+        height: 200px;
+    }
+
+    .safety-sec .title h2 {
+        margin-bottom: 40px;
+    }
+
+    .safety-sec p {
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 25px;
+        text-align: justify;
+    }
+
+    .single-resource {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .single-resource .text {
+        text-align: left;
+        float: left;
+        margin-top: 25px;
+    }
+
+    .single-resource h4 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .single-resource p {
+        font-size: 15px;
+        line-height: 22px;
+        margin-top: 0;
+    }
+
+    .single-resource a {
+        font-size: 15px;
+    }
+
+    .resources-sec .title h2 {
+        margin-bottom: 35px;
+    }
+
+    .banner-text h2 {
+        font-size: 38px;
+        line-height: 46px;
+        margin-top: 0;
+    }
+
+    .banner-text p {
+        font-size: 18px;
+        line-height: 28px;
+        margin-bottom: 25px;
+    }
+
+    .video-text p {
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: -25px;
+    }
+
+    .video-sec {
+        padding-top: 50px;
+    }
+
+    .video-text h2 {
+        margin-bottom: 20px;
+    }
+
+    .main-video a {
+        font-size: 24px;
+        width: 70px;
+        height: 70px;
+        line-height: 70px;
+        margin-left: -35px;
+        margin-top: -35px;
+    }
+
+    .single-details .icon {
+        margin-top: 25px;
+    }
+
+    .single-details h3 {
+        font-size: 22px;
+        line-height: 17px;
+        margin-top: 15px;
+    }
+
+    .details-sec {
+        padding-bottom: 50px;
+        padding-top: 125px;
+        margin-top: -100px;
+    }
+
+    .middle-procedure {
+        margin: 0;
+    }
+
+    .single-procedure {
+        margin-top: 35px;
+    }
+}
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {}

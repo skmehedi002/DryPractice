@@ -56,15 +56,14 @@
                 lazyLoad: true,
                 loop: true,
                 margin: 20,
-                /*
-               animateOut: 'fadeOut',
-               animateIn: 'fadeIn',
-               */
+                animateOut: 'fadeOut',
+                animateIn: 'fadeIn',
                 responsiveClass: true,
                 autoHeight: true,
                 autoplayTimeout: 7000,
                 smartSpeed: 800,
-                nav: true,
+                nav: false,
+                dots: true,
                 items: 1,
             });
         },
