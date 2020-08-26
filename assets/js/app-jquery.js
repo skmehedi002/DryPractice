@@ -88,18 +88,18 @@
             $('.contact-form form input[type="text"], .contact-form form textarea').on('focus', function() {
                 $('.contact-form form input[type="text"], .contact-form form textarea').removeClass('contact-error');
             });
-            $(document).on('click touchend', function(e) {
-                var contactSuccess = $('#contact-success');
-                if (contactSuccess.css('display') !== "none")
-                {
-                    if (!$(e.target).is(contactSuccess))
-                    {
-                        e.preventDefault();
-                        contactSuccess.hide();
-                    }
-                }
-
-            });
+            // $(document).on('click touchend', function(e) {
+            //     var contactSuccess = $('#contact-success');
+            //     if (contactSuccess.css('display') !== "none")
+            //     {
+            //         if (!$(e.target).is(contactSuccess))
+            //         {
+            //             e.preventDefault();
+            //             contactSuccess.hide();
+            //         }
+            //     }
+            //
+            // });
             $('.contact-form form').submit(function(e) {
                 e.preventDefault();
                 $('.contact-form form input[type="text"], .contact-form form textarea').removeClass('contact-error');
