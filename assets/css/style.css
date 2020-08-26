@@ -334,6 +334,15 @@ img {
     font-size: 18px
 }
 
+#contact-success{
+    background: white;
+    width: 100%;
+    border: 2px solid #405D5D;
+}
+#contact-success p {
+    text-align: center;
+}
+
 /*====================
      Question CSS
 ======================*/
