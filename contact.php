@@ -34,8 +34,8 @@ if($_POST) {
 		$headers = "From: " . $fullname . " <" . $clientEmail . ">" . "\r\n" . "Reply-To: " . $clientEmail;
 		mail($emailTo, "DryPractice.NET website comment", $message, $headers);
 
-        $headers2 = "From: " . "DryPractice". " <" . "support@drypractice.net" . ">" . "\r\n" . "Reply-To: " . "support@drypractice.net";
-        mail($clientEmail, "Thanks for Contact.", "We have recieved your email", $headers2);
+        // $headers2 = "From: " . "DryPractice". " <" . "support@drypractice.net" . ">" . "\r\n" . "Reply-To: " . "support@drypractice.net";
+        // mail($clientEmail, "Thanks for Contact.", "We have recieved your email", $headers2);
     }
 
     echo json_encode($array);
